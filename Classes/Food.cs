@@ -4,33 +4,23 @@ public class Food
 {
     private string _name;
     private int _calories;
-    private float _carbs;
-    private float _protein;
-    private float _fat;
+    private int _carbs;
+    private int _protein;
+    private int _fat;
 
-    public string Name
+    protected Food(string Name, int Calories, int Carbs, int Protein, int Fat)
     {
-        get { return _name; }
-        set { _name = value; }
-    }
-    public int Calories
-    {
-        get { return _calories; }
-        set { _calories = value; }
-    }
-    public float Carbs
-    {
-        get { return _carbs; }
-        set { _carbs = value; }
-    }
-    public float Protein
-    {
-        get { return _protein; }
-        set { _protein = value; }
-    }
-    public float Fat
-    {
-        get { return _fat; }
-        set { _fat = value; }
+        if (string.IsNullOrWhiteSpace(Name))
+        {
+            throw new ArgumentException("Name cannot be empty");
+        } else
+        {
+            _name = Name;
+        }
+        
+        _calories = Calories;
+        _carbs = Carbs;
+        _protein = Protein;
+        _fat = Fat;
     }
 }
