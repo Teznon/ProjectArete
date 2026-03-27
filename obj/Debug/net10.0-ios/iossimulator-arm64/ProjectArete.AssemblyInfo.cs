@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectArete")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0f6dfab7a0774d6596efaac0eb05f4a803cd97b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bff8b9be0f1178eef0a81a7dd00fb3a9ace95c92")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectArete")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectArete")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
